@@ -4,48 +4,63 @@
   <meta charset="UTF-8">
   <meta name="author" content="Литвинов Михаил">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
   <title>Shitty gifts</title>
 </head>
 <body>
-  <ul>
-    <a href="index.html">
-      <li>Главная</li>
-    </a>
-    <a href="catalog.html">
-      <li>Каталог</li>
-    </a>
-    <a href="about_us.html">
-      <li>О нас</li>
-    </a>
-  </ul>
-  <hr>
-  <h2>Список наших товаров:</h2>
-  <ul>
-    <a href="plate.html">
-      <li>
-        <p>Тарелка 'Удивлённый кот'</p>
-        <img src="images\plate.jpg" alt="Тарелка 'Удивлённый кот'" width="150px">
-      </li>
-    </a>
-    <a href="#">
-      <li>
-        <p>Органайзер для мелочей</p>
-        <img src="images\organizer.jpg" alt="Органайзер для мелочей" width="150px">
-      </li>
-    </a>
-    <a href="#">
-      <li>
-        <p>Головоломка для бутылки</p>
-        <img src="images\bottle.jpg" alt="Головоломка для бутылки" width="150px">
-      </li>
-    </a>
-  </ul>
-  <hr>
-  <h4>Наши контакты:</h4>
-  <ul>
-    <li>+7-900-000-00-00</li>
-    <li>WoooW@gmail.com</li>
-    <li>Москва, Балаклавский проспект, дом 6А</li>
-  </ul>
+  <div class="header">
+    <ul>
+      <a href="index.html" class="name">
+        <li>Shitty gifts</li>
+      </a>
+      <a href="index.html">
+        <li>Главная</li>
+      </a>
+      <a href="catalog.html">
+        <li>Каталог</li>
+      </a>
+      <a href="about_us.html">
+        <li>О нас</li>
+      </a>
+    </ul>
+    <hr>
+  </div>
+  <div class="main">
+    <h2>Список наших товаров:</h2>
+    <ul class="product">
+      <a href="plate.html">
+        <li>
+          <p>Тарелка 'Удивлённый кот'</p>
+          <div class="images">
+            <img src="images\plate.jpg" alt="Тарелка 'Удивлённый кот'" width="150px">
+          </div>
+        </li>
+      </a>
+      <a href="#">
+        <li>
+          <p>Органайзер для мелочей</p>
+          <div class="images">
+            <img src="images\organizer.jpg" alt="Органайзер для мелочей" width="150px">
+          </div>
+        </li>
+      </a>
+      <a href="#">
+        <li>
+          <p>Головоломка для бутылки</p>
+          <div class="images">
+            <img src="images\bottle.jpg" alt="Головоломка для бутылки" width="150px">
+          </div>
+      </a>
+    </ul>
+  </div>
+  <div class="footer">
+    <hr>
+    <h4>Наши контакты:</h4>
+    <ul>
+      <li>+7-900-000-00-00</li>
+      <li>WoooW@gmail.com</li>
+      <li>Москва, Балаклавский проспект, дом 6А</li>
+    </ul>
+  </div>
 </body>
 </html>

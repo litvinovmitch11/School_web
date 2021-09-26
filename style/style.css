@@ -1,0 +1,149 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+  background: #e1cfe388;
+}
+
+hr {
+  height: 2px;
+  border: 0px;
+  background-color: #7d2c85e3;
+  margin: 0px;
+}
+
+.header ul {
+  background: #f2cef5;
+  padding: 12px;
+  margin: 0px;
+}
+
+.header li {
+  display: inline;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.header a {
+  padding: 14px;
+  padding-top: 18px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: 30px;
+  background: #f2cef5;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.header a:hover {
+  background: #eca5f2;
+}
+
+.header .name {
+  padding: 14px;
+  padding-top: 18px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin: 30px;
+  background: #eca5f2;
+  margin-left: 30px;
+  margin-right: 200px;
+  border-radius: 15px 100px 15px 100px;
+}
+
+.header .name:hover {
+  background: #eca5f2;
+}
+
+.header .name li {
+  font-size: 17pt;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  margin: 10px;
+}
+
+.main h1 {
+  margin-top: 0;
+  padding-top: 10px;
+  text-align: center;
+  color: #00020ff1;
+}
+
+.main h2 {
+  margin-top: 0;
+  padding-top: 10px;
+  text-align: center;
+  color: #00020ff1;
+}
+
+.main .text {
+  margin-right: 20px;
+  text-align: right;
+
+}
+
+.main .images img{
+  padding: 5px;
+  margin-right: 100px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  background: #00020ff1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #444;
+  float: left;
+}
+
+.product .images img{
+  padding: 3px;
+  margin: 10px;
+  background: #00020ff1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #444;
+  float: none;
+}
+
+.footer {
+  clear: left;
+  background: #f2cef5;
+}
+
+.footer h4 {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+.footer li {
+  margin: 2px;
+}
+
+.footer ul {
+   list-style: none;
+   background: #f2cef5;
+   padding-bottom: 15px;
+   margin-bottom: 0;
+   margin-top: 10px;
+}
+
+.product p {
+  margin: 5px;
+  font-size: 14pt;
+}
+
+.product ul {
+  list-style: georgian;
+}
+
+.description {
+  clear: left;
+  margin: 10px;
+}
