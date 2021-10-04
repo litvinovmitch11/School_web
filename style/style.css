@@ -158,24 +158,24 @@ hr {
   font-size: 14pt;
 }
 
-.product .images {
+.product {
   display: inline-block;
-}
-
-.product ul {
-  list-style: georgian;
-  list-style:none;
-}
-
-.product p {
-  display: inline-block;
-}
-
-.product li {
-  display: inline;
+  padding: 40px;
 }
 
 .description {
   clear: left;
   margin: 10px;
+}
+
+.buy {
+  font-weight: 700;
+  color: #551a8b;
+  text-decoration: none;
+  margin-top: 17px;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: #eca5f2;
+  box-shadow: 0 -3px #eca5f2 inset;
+  transition: 0.2s;
 }
