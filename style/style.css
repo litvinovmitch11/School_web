@@ -22,6 +22,7 @@ hr {
 .header {
   height: 50px;
   display: flex;
+  background: #f2cef5;
 }
 
 .header ul {
@@ -85,6 +86,7 @@ hr {
 
 .main {
   margin: 10px;
+  min-height: calc(100vh - 190px);
 }
 
 .main h1 {
@@ -127,11 +129,8 @@ hr {
 }
 
 .footer {
-  height: 50px;
-}
-
-.footer {
   clear: left;
+  height: 100px;
   background: #f2cef5;
 }
 
@@ -178,4 +177,10 @@ hr {
   background: #eca5f2;
   box-shadow: 0 -3px #eca5f2 inset;
   transition: 0.2s;
+}
+
+@media screen and (max-width: 680px) {
+  .main .images img{
+    float: none;
+  }
 }
