@@ -1,0 +1,44 @@
+CREATE TABLE company(
+    CompanyID INTEGER PRIMARY KEY AUTOINCREMENT,
+    company_name text NOT NULL UNIQUE,
+    company_description TEXT,
+    logo BLOB
+);
+
+CREATE TABLE product (
+    ProductID INTEGER PRIMARY KEY AUTOINCREMENT,
+    product_name TEXT NOT NULL UNIQUE,
+    product_description TEXT,
+    CompanyID INTEGER NOT NULL,
+    color TEXT,
+    weight INTEGER,
+    availability INTEGER NOT NULL,
+    price INTEGER NOT NULL,
+    FOREIGN KEY (CompanyID) REFERENCES company(CompanyID)
+);
+
+CREATE TABLE customer (
+    CustomerID INTEGER PRIMARY KEY AUTOINCREMENT,
+    login TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL,
+    last_visit TEXT,
+    phone TEXT,
+    mail TEXT,
+    ip TEXT,
+    address TEXT
+);
+
+CREATE TABLE basket(
+    OrderID INTEGER PRIMARY KEY AUTOINCREMENT,
+    CustomerID INTEGER NOT NULL,
+    comment TEXT,
+    delivery_method TEXT,
+    payment_method TEXT,
+    status TEXT,
+    FOREIGN KEY (CustomerID) REFERENCES customer(CustomerID)
+);
+
+
+// Не знаю как добавить в order (заказ) те товары, которые человек заказал
+// Получается что-то вроде таблицы в таблице
+// У меня в excel файле так и написано, а как реализовать здесь - не знаю
